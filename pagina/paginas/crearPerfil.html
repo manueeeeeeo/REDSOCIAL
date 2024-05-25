@@ -1,1 +1,81 @@
-
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Creación de Pefil</title>
+    <!--Enlace a hojas de estilos-->
+    <link rel="stylesheet" type="text/css" href="../css/crearPerfil.css">
+    <!--Enlace para el favIcon-->
+    <!--Enlaces de js-->
+    <script src="../js/vistaPrevia.js"></script>
+    <script type="module" src="../js/firebaseconect.js"></script>
+    <script type="module" src="../js/enviarPerfil.js"></script>
+</head>
+<body>
+    <div class="titu">
+        <h1>TU RED SOCIAL</h1>
+    </div>
+    <form id="fo2">
+        <fieldset>
+            <legend>Crear Perfil</legend>
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required minlength="4" maxlength="20">
+            <label for="apellidos">Apellidos:</label>
+            <input type="text" id="apellidos" name="apellidos" required minlength="4" maxlength="20">
+            <label for="user">Username:</label>
+            <input type="text" id="user" name="user" required minlength="4" maxlength="17">
+            <label for="edad">Edad:</label>
+            <input type="number" id="edad" name="edad" min="18" max="99" required>
+            <label for="num_vehiculos">Número de Vehículos:</label>
+            <select id="num_vehiculos" name="num_vehiculos" required>
+                <option value="0">0</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+            </select>
+            <div id="vehiculo1" style="display: none;">
+                <label for="v1">Vehiculo 1:</label>
+                <input type="text" id="veh1" name="veh1">
+            </div>
+            <div id="vehiculo2" style="display: none;">
+                <label for="v1">Vehiculo 2:</label>
+                <input type="text" id="veh2" name="veh2">
+            </div>
+            <div id="vehiculo3" style="display: none;">
+                <label for="v1">Vehiculo 3:</label>
+                <input type="text" id="veh3" name="veh3">
+            </div>
+            <div id="vehiculo4" style="display: none;">
+                <label for="v1">Vehiculo4:</label>
+                <input type="text" id="veh4" name="veh4">
+            </div>
+            <div id="vehiculo5" style="display: none;">
+                <label for="v1">Vehiculo 5:</label>
+                <input type="text" id="veh5" name="veh5">
+            </div>
+            <label for="descripcion">Breve Descripción:</label>
+            <textarea id="descripcion" name="descripcion" rows="4" required></textarea>
+            <label for="imagen">Imagen:</label>
+            <input type="file" id="imagen" name="imagen" accept="image/*">
+            <div id="preview"></div>
+            <input type="submit" value="Guardar">
+            <input type="reset" value="Limpiar">
+        </fieldset>
+    </form>
+    <br><hr>
+    <footer>
+        <div class="copy">
+            <p>&copy; 2024 TU RED SOCIAL</p>
+            <p>V.1.0</p>
+            <a href="privacidad.html">Privacidad de Datos</a>
+        </div>
+    </footer>
+</body>
+<!--Enlace para los botones-->
+<script src="../js/añadirVeh.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-compat/3.0.0-alpha1/jquery.min.js" integrity="sha512-4GsgvzFFry8SXj8c/VcCjjEZ+du9RZp/627AEQRVLatx6d60AUnUYXg0lGn538p44cgRs5E2GXq+8IOetJ+6ow==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</html>
