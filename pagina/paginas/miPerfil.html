@@ -1,1 +1,46 @@
-
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tu Perfil</title>
+    <link rel="stylesheet" href="../css/miPerfil.css">
+    <!--Enlace para el favIcon-->
+    <!--Enlaces para conectarse con firebase-->
+    <script type="module" src="../js/firebaseconect.js"></script>
+    <script type="module" src="../js/miPerfil.js"></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="inicio.html">Inicio</a></li>
+                <li><a href="creacionevento.html">Crear Evento</a></li>
+                <li><a href="verTodosPerfiles.html">Ver Perfiles</a></li>
+                <li><a href="#">Mi Perfil</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="container">
+        <div id="profile">
+            <h1 class="titu">Perfil de Usuario</h1>
+            <div class="user-info">
+                <h1 id="titu"></h1>
+                <p id="nom"><strong></strong></p>
+                <p id="ed"><strong></strong></p>
+                <p id="veh"><strong></strong></p>
+                <p id="des"><strong></strong></p>
+                <p id="ev"><strong></strong></p>
+            </div>
+            <button>Cerrar Sesión</button>
+            <button>Editar Perfil</button>
+        </div>
+    </main>
+    <hr>
+    <footer class="container">
+        <p>&copy; 2024 TU RED SOCIAL</p>
+        <p>V.1.0</p>
+        <a href="privacidad.html">Privacidad de Datos</a>
+    </footer>
+</body>
+</html>
