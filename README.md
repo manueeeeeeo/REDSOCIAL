@@ -1,10 +1,16 @@
 # REDSOCIAL
-Crear Red Social con HTML,CSS Y JS
-En este repositorio de GitHub, vas a poder ver como crear una especie de Red Social
-para encuentros, rutas y quedadas para coches, motos...
+Curso para la creación de una red social en HTML, CSS y JS
+En este curso vas a poder aprender a crear una red social desde 0, en este
+curso vamos a utilizar los lenguajes de programación de HTML, CSS y JS.
+Para la creación de la base de datos y el sistema de autenticación,
+vamos a utlizar Firebase en su prueba gratuita.
 
-Utilizaremos esencialmente HTML, CSS, JS y para la base de datos utilizaremos FireBase
-en su versión, gratuita.
+Si quieres aprender de verdad como se hace en el pdf va a estar explicado paso por paso,
+sino, los código estan ahí.
 
-Muchas gracias!!
-Espero que os guste
+En principio yo enfoque mi red social a una especie de red social para organizar
+quedadas, eventos, etc. Por lo tanto no va ha haber publicaciones como tal, sino
+eventos y quedadas, más adelante iré haciendo otra que sea parecida a las que te permiten
+seguir gente, subir fotos...
+
+Si quiere ver como va mi proyecto publicado busca motorton.es
