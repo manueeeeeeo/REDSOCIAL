@@ -1,1 +1,123 @@
+/* Reset de estilos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos generales */
+body {
+    background-color: #008DDA;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 17px;
+    line-height: 1.6;
+    padding-top: 60px; /* Añadimos espacio para el menú fijo */
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Estilos del menú */
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #0072af;
+    z-index: 999; /* Asegura que el menú esté por encima del contenido */
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 13px;
+    text-align: center; /* Centramos los elementos del menú */
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.per {
+    border: 6px solid #0072af;
+    border-radius: 20px;
+    width: 80%; /* Define el ancho del div */
+    max-width: 400px; /* Define el ancho máximo del div */
+    margin: 0 auto; /* Centra horizontalmente el div */
+    padding: 20px; /* Agrega relleno alrededor del contenido */
+    background-color: #36a2b5;
+}
+
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+nav ul li a:hover {
+    background-color: #36a2b5;
+}
+
+/* Estilos del contenido principal */
+main {
+    padding: 40px 0;
+    text-align: center;
+    align-items: center;
+}
+
+.titu{
+    text-align: center;
+}
+
+footer{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+@media screen and (max-width: 768px) {
+    nav ul li a {
+        font-size: 14px;
+    }
+    nav ul li{
+        display: inline-block;
+        margin-right: 10px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    nav ul li a {
+        font-size: 12px;
+    }
+    nav ul li{
+        display: inline-block;
+        margin-right: 2px;
+    }
+}
+
+/* Estilos específicos para esta página */
+.per {
+    margin-top: 20px;
+}
+
+.per h1,
+.per p {
+    margin-bottom: 10px;
+}
+
+.redes img {
+    width: 30px;
+    margin-right: 10px;
+}
+
+.copy {
+    margin-left: 10px;
+}
 
