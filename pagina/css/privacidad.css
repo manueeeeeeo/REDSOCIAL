@@ -1,1 +1,84 @@
+/* Reset de estilos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
+/* Estilos generales */
+body {
+    background-color: #008DDA;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 17px;
+    line-height: 1.6;
+    padding-top: 60px; /* Añadimos espacio para el menú fijo */
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+
+/* Estilos del contenido principal */
+main {
+    padding: 5px 20px; /* Añadido padding horizontal */
+}
+
+main h1 {
+    margin-top: 15px; /* Añadido espacio superior a los títulos */
+}
+
+main p {
+    margin-bottom: 20px; /* Añadido espacio inferior a los párrafos */
+}
+
+button {
+    display: block; /* Convertido en bloque para centrarlo */
+    margin: 20px auto; /* Centrado horizontal */
+    background-color: #666;
+    border-radius: 5px;
+    color: white;
+    padding: 10px 20px; /* Aumentado padding horizontal */
+    border: 1px white solid;
+}
+
+/* Estilos del footer */
+footer {
+    color: white;
+    background-color: #41C9E2;
+    padding: 20px;
+}
+
+/* Estilos específicos para el formulario de contacto */
+form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+form input[type="text"],
+form input[type="email"],
+form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid #666;
+    background-color: #444;
+    color: white;
+}
+
+form input[type="submit"] {
+    background-color: #666;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form input[type="submit"]:hover {
+    background-color: #555;
+}
