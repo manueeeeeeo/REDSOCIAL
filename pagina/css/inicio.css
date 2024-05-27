@@ -1,1 +1,133 @@
+/* Reset de estilos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
+  /* Estilos generales */
+body {
+    background-color: #008DDA;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 17px;
+    line-height: 1.6;
+    padding-top: 60px; /* Añadimos espacio para el menú fijo */
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+  /* Estilos del menú */
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #0072af;
+    z-index: 999; /* Asegura que el menú esté por encima del contenido */
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 13px;
+    text-align: center; /* Centramos los elementos del menú */
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+nav ul li a:hover {
+    background-color: #36a2b5;
+}
+
+  /* Estilos del contenido principal */
+main {
+    padding: 40px 0;
+}
+
+#eventos {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #41C9E2;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+#eventos div {
+    margin-bottom: 15px;
+    padding: 15px;
+    background-color: #36a2b5;
+    border-radius: 5px;
+}
+
+#eventos div:last-child {
+    margin-bottom: 0; /* Eliminamos el margen inferior del último evento */
+}
+
+#eventos button {
+    background-color: #0072af;
+    border-radius: 5px;
+    color: white;
+    padding: 10px;
+    border: 1px white solid;
+}
+
+.titu{
+    text-align: center;
+}
+
+footer{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+@media screen and (max-width: 768px) {
+    nav ul li a {
+        font-size: 14px;
+    }
+    nav ul li{
+        display: inline-block;
+        margin-right: 10px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    nav ul li a {
+        font-size: 12px;
+    }
+    nav ul li{
+        display: inline-block;
+        margin-right: 2px;
+    }
+}
+
+.filtrar{
+    text-align: center;
+}
+
+select{
+    background-color: #0072af;
+    border: 1px solid white;
+    border-radius: 4px;
+    color: white;
+}
+
+option:hover{
+    background-color: #36a2b5;
+}
