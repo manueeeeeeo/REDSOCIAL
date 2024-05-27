@@ -1,1 +1,112 @@
+/* Reset de estilos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
+header{
+    text-align: center;
+}
+
+/* Estilos generales */
+body {
+    background-color: #008DDA;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 17px;
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Estilos del contenido principal */
+main {
+    padding: 40px 0;
+}
+
+.quees {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #41C9E2;
+    padding: 20px;
+    border-radius: 10px;
+    color: black;
+}
+
+.quees p {
+    color: black;
+    margin-bottom: 15px;
+    padding: 15px;
+    background-color: #ACE2E1;
+    border-radius: 5px;
+}
+
+.contactar {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+button{
+    color: black;
+    text-decoration: none;
+    padding: 10px 15px;
+    border-color: #008DDA;
+    border-radius: 5px;
+    background-color: #ACE2E1;
+}
+
+button:hover{
+    background-color: #41C9E2;
+}
+
+/* Estilos para el mensaje de cookies */
+#mensajeCookies {
+    position: fixed;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #f0f0f0;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
+    max-width: 400px;
+    text-align: center;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    color: #333;
+    display: none;
+}
+
+#mensajeCookies p {
+    margin-bottom: 10px;
+}
+
+#mensajeCookies button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+#mensajeCookies button:hover {
+    background-color: #45a049;
+}
+
+footer {
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
