@@ -1,4 +1,4 @@
-# REDSOCIAL
+# REDSOCIALWEB
 Curso para la creación de una red social en HTML, CSS y JS
 En este curso vas a poder aprender a crear una red social desde 0, en este
 curso vamos a utilizar los lenguajes de programación de HTML, CSS y JS.
